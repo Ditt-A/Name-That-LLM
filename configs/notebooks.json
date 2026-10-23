@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profiles": {
+    "soft_mrf_0608": {
+      "notebook": "notebooks/baselines/soft_mrf_0608.ipynb",
+      "metadata": "configs/kaggle/soft_mrf_0608.json",
+      "description": "Scored reference: two-stage Qwen + Gaussian + ATLAS + guarded Soft MRF",
+      "sha256": "cef0f18cd0e9a8786297c4b1d3f1ef7abca2e38e097c1131c4abe2fe9003c6e7",
+      "source_kernel": "adityaakbar/ntl-atlas-soft-mrf-constraints",
+      "verified_source_score": 0.608,
+      "submission_ref": 57508672,
+      "script_version_id": 361000837,
+      "competition_submission": true,
+      "score_note": "archived scored result"
+    },
+    "svc_002": {
+      "notebook": "notebooks/experiments/svc_002.ipynb",
+      "metadata": "configs/kaggle/svc_002.json",
+      "description": "Reviewed inline 0.608 flow, checkpoint-bound train cache and 2% merged-pool SVC",
+      "sha256": "b7918616219a8abb192c5d3f4e6eb2a4105f5ebc304babb4aaa4a7e47efe3ae3",
+      "source_kernel": "adityaakbar/ntl-svc-2pct-verified-0608-flow",
+      "verified_source_score": null,
+      "submission_ref": 57550025,
+      "script_version_id": null,
+      "competition_submission": true,
+      "score_note": "score not recorded in this snapshot"
+    },
+    "svc_calibrated": {
+      "notebook": "notebooks/experiments/svc_calibrated.ipynb",
+      "metadata": "configs/kaggle/svc_calibrated.json",
+      "description": "2% SVC with three prompt-grouped calibration folds",
+      "sha256": "dee2ecbe6868720a5d8bb219072832821219c6866ed3ad1a20bf6aee6140bef3",
+      "source_kernel": "adityaakbar/ntl-exp3-mrf-calibrated-svc",
+      "verified_source_score": null,
+      "submission_ref": 57549578,
+      "script_version_id": null,
+      "competition_submission": true,
+      "score_note": "score not recorded in this snapshot"
+    },
+    "hybrid_mrf": {
+      "notebook": "notebooks/experiments/hybrid_mrf.ipynb",
+      "metadata": "configs/kaggle/hybrid_mrf.json",
+      "description": "Cached Dhruv/SVC hybrid with guarded Soft MRF replacing hard Hungarian",
+      "sha256": "630491121e88e68f9b3f2128999c3fa92a04ccf36f606ef3aad84df6374ecb8c",
+      "source_kernel": "adityaakbar/ntl-exp1-cached-hybrid-soft-mrf",
+      "verified_source_score": null,
+      "submission_ref": 57550453,
+      "script_version_id": null,
+      "competition_submission": true,
+      "score_note": "score not recorded in this snapshot"
+    },
+    "mrf_055": {
+      "notebook": "notebooks/experiments/mrf_055.ipynb",
+      "metadata": "configs/kaggle/mrf_055.json",
+      "description": "Baseline plus Soft MRF strength 0.55",
+      "sha256": "923067a4b3c50e8a4006e5526ea16bca94ed9c4b2c19903f7f22347ede5c6eee",
+      "source_kernel": "adityaakbar/ntl-exp4-mrf-penalty-055",
+      "verified_source_score": null,
+      "submission_ref": 57549315,
+      "script_version_id": null,
+      "competition_submission": true,
+      "score_note": "score not recorded in this snapshot"
+    },
+    "hybrid_cached_0602": {
+      "notebook": "notebooks/reference/hybrid_cached_0602.ipynb",
+      "metadata": "configs/kaggle/hybrid_cached_0602.json",
+      "description": "Scored comparison: cached 75/20/5 hybrid with selective ATLAS and Hungarian",
+      "sha256": "eb4e3ef8a590bb6c43f7fd098d22cea5ae963dcf67b3ec7fe14081110e15c385",
+      "source_kernel": "adityaakbar/ntl-hybrid-cached-fallback",
+      "verified_source_score": 0.602,
+      "submission_ref": 57528628,
+      "script_version_id": 361111971,
+      "competition_submission": true,
+      "score_note": "archived scored result"
+    },
+    "prepare_train_cache": {
+      "notebook": "notebooks/preparation/train_feature_cache.ipynb",
+      "metadata": "configs/kaggle/prepare_train_cache.json",
+      "description": "Prepare ten official-train feature sets and seven fitted Gaussian artifacts",
+      "sha256": "adf51d6b2cf2b812eb93a2b20fc2b48e8b47aaaa16bf6e86cfb0aec0a0499a12",
+      "source_kernel": "adityaakbar/ntl-hybrid-train-feature-cache",
+      "verified_source_score": null,
+      "submission_ref": null,
+      "script_version_id": null,
+      "competition_submission": false,
+      "score_note": "score not recorded in this snapshot"
+    },
+    "diagnostic_72": {
+      "notebook": "notebooks/diagnostics/full_route_72.ipynb",
+      "metadata": "configs/kaggle/diagnostic_72.json",
+      "description": "Real 72-text public-data full-route diagnostic; never submit to the competition",
+      "sha256": "6effe52153a1b424ff204e8b4f71e3b11db60b0c9c6f9062c8dfd30f72a8d071",
+      "source_kernel": "adityaakbar/ntl-full-route-diagnostic-72",
+      "verified_source_score": null,
+      "submission_ref": null,
+      "script_version_id": null,
+      "competition_submission": false,
+      "score_note": "score not recorded in this snapshot"
+    },
+    "prepare_llama": {
+      "notebook": "notebooks/preparation/llama31_base_assets.ipynb",
+      "metadata": "configs/kaggle/prepare_llama.json",
+      "description": "CPU + Internet ON: stage the pinned public Llama base for later offline inference",
+      "sha256": "e0c12a5e3b5eafa2663bb341e4488d1a13043c3a2971f3a71c77c050b65ef32c",
+      "source_kernel": "adityaakbar/ntl-llama31-base-hf-assets",
+      "competition_submission": false,
+      "verified_source_score": null,
+      "submission_ref": null,
+      "script_version_id": null,
+      "score_note": "asset preparation, not a competition submission"
+    }
+  }
+}

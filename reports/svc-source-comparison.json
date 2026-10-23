@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "successful_source_sha256": "d3931b9883b37913ea1d0a26dbde2453ad379bcab688d44e0599066012344fed",
+  "unchanged_primary_function_definitions": 24,
+  "unchanged_complementary_function_definitions": 53,
+  "unchanged_ATLAS_balancing_MRF_and_output_cells": [
+    "4e7721c8caf94a1ce62d3295c03e4dd14755aec60258034f05f6589112546691",
+    "26b231aee80bb629fedb52c7221683c931d33e7a0aa47dad263d3b392c86def2",
+    "ec1c4cf755a37b0b66075459f24f0c1e913cff61578d11df08953ba8c83b565b",
+    "c8dfd509bfb4f5f90b1b625bd3aadc1a934b136915086341b4f2cccfa6fe69a1"
+  ],
+  "cached_baseline_module_exactly_from_successful_0602": true,
+  "no_new_LLM_weights_or_fine_tuning": true,
+  "all_cells_compile": true,
+  "SVC_child_reads_ID_as_string": true,
+  "code_route_change": "baseline inline; insert one 2% SVC stage before original ATLAS",
+  "hidden_runtime_and_accuracy_proven": false
+}

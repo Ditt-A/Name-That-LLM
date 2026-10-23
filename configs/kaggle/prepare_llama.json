@@ -1,0 +1,16 @@
+{
+  "id": "YOUR_KAGGLE_USERNAME/ntl-llama31-base-hf-assets",
+  "title": "NTL Llama31 Base HF Assets",
+  "code_file": "llama31_base_assets.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "model_sources": [],
+  "competition_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+  "session_timeout_seconds": 32400
+}

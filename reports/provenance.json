@@ -1,0 +1,190 @@
+{
+  "archive_name": "kaggle-ntl-review-20261020",
+  "files": [
+    {
+      "path": "src/ntl/postprocessing/soft_mrf.py",
+      "archive_path": "soft_mrf/soft_constraints.py",
+      "sha256_lf": "ec1c4cf755a37b0b66075459f24f0c1e913cff61578d11df08953ba8c83b565b",
+      "archive_sha256": "ec1c4cf755a37b0b66075459f24f0c1e913cff61578d11df08953ba8c83b565b"
+    },
+    {
+      "path": "src/ntl/postprocessing/hungarian.py",
+      "archive_path": "consensus_hungarian/selective_hungarian.py",
+      "sha256_lf": "ba342a080ffe5ce5a2502a045b2c08933e78232c02547c66aa74d0acfbada024",
+      "archive_sha256": "ba342a080ffe5ce5a2502a045b2c08933e78232c02547c66aa74d0acfbada024"
+    },
+    {
+      "path": "src/ntl/ensemble.py",
+      "archive_path": "hybrid_pretrained/hybrid_math.py",
+      "sha256_lf": "000c483559decb720709455f1e3950bf8c53155af3679db1eb44b7f93e775cd3",
+      "archive_sha256": "000c483559decb720709455f1e3950bf8c53155af3679db1eb44b7f93e775cd3"
+    },
+    {
+      "path": "src/ntl/calibration.py",
+      "archive_path": "four_experiments_20261022/calibration_runtime.py",
+      "sha256_lf": "bb38fb8fd055c6581478b47705ae43363c979799f749ca6a22c67f5759e10482",
+      "archive_sha256": "bb38fb8fd055c6581478b47705ae43363c979799f749ca6a22c67f5759e10482"
+    },
+    {
+      "path": "src/ntl/cache.py",
+      "archive_path": "train_cache/cache_runtime.py",
+      "sha256_lf": "e13e79e2b6de234c8e6d9daec91c6e7abea5b21d0dad197b5c305892c86025f1",
+      "archive_sha256": "e7f08f897563b3be1ffd9d2c650dbbcf1f3ed8f2e62dada02ff750763a07680f"
+    },
+    {
+      "path": "src/ntl/checkpoints.py",
+      "archive_path": "soft_mrf/checkpoint_resolver.py",
+      "sha256_lf": "5254f7d1bafa97500eb02ea9db33811ce5c22bb299a1af35f6c7d17bc0e11a91",
+      "archive_sha256": "5254f7d1bafa97500eb02ea9db33811ce5c22bb299a1af35f6c7d17bc0e11a91"
+    },
+    {
+      "path": "configs/assets/train-cache-contract.json",
+      "archive_path": "train_cache/cache-contract.json",
+      "sha256_lf": "63d598f58ddab94a6d589564a4d5f94211e590bbe01d4c9b3909248639f9befa",
+      "archive_sha256": "5b64532b7c5244355c4cf771f5d3d094a3966128037c785f9d3e6273a0f4a170"
+    },
+    {
+      "path": "configs/assets/train-cache-manifest.json",
+      "archive_path": "train_cache/verified-cache-manifest.json",
+      "sha256_lf": "48a167e22b90c902ffa98143366b3677497a4763175b3c42419fd49380c244ec",
+      "archive_sha256": "48a167e22b90c902ffa98143366b3677497a4763175b3c42419fd49380c244ec"
+    },
+    {
+      "path": "notebooks/baselines/soft_mrf_0608.ipynb",
+      "archive_path": "soft_mrf/publish/NTL_ATLAS_Soft_MRF_Constraints.ipynb",
+      "sha256_lf": "cef0f18cd0e9a8786297c4b1d3f1ef7abca2e38e097c1131c4abe2fe9003c6e7",
+      "archive_sha256": "d3931b9883b37913ea1d0a26dbde2453ad379bcab688d44e0599066012344fed"
+    },
+    {
+      "path": "notebooks/experiments/svc_002.ipynb",
+      "archive_path": "four_experiments_20261022/svc_verified/publish/NTL_SVC_Verified_0608.ipynb",
+      "sha256_lf": "b7918616219a8abb192c5d3f4e6eb2a4105f5ebc304babb4aaa4a7e47efe3ae3",
+      "archive_sha256": "b30b60066c92e4bd44e177cce43fb569f528420615f0b7add7af3ba887a4fec3"
+    },
+    {
+      "path": "notebooks/experiments/svc_calibrated.ipynb",
+      "archive_path": "four_experiments_20261022/svc_calibrated/publish/NTL_Exp3_MRF_Calibrated_SVC.ipynb",
+      "sha256_lf": "dee2ecbe6868720a5d8bb219072832821219c6866ed3ad1a20bf6aee6140bef3",
+      "archive_sha256": "114623631a95b18b93b7a3f77c2f4c5f8028b5cbd016c957b5f94a6da4e28715"
+    },
+    {
+      "path": "notebooks/experiments/hybrid_mrf.ipynb",
+      "archive_path": "four_experiments_20261022/hybrid_mrf/publish/NTL_Exp1_Hybrid_Soft_MRF.ipynb",
+      "sha256_lf": "630491121e88e68f9b3f2128999c3fa92a04ccf36f606ef3aad84df6374ecb8c",
+      "archive_sha256": "348baaeaa3da4c71b6dce3ee8de9d70ddb70f3520ff179a3f034935a7c74e5ca"
+    },
+    {
+      "path": "notebooks/experiments/mrf_055.ipynb",
+      "archive_path": "four_experiments_20261022/mrf_055/publish/NTL_Exp4_MRF_Penalty_055.ipynb",
+      "sha256_lf": "923067a4b3c50e8a4006e5526ea16bca94ed9c4b2c19903f7f22347ede5c6eee",
+      "archive_sha256": "cb43a0391f00cd4bbf0d7e8f49175c945bc876139e9b5fdcdfb3a2722cc75c27"
+    },
+    {
+      "path": "notebooks/reference/hybrid_cached_0602.ipynb",
+      "archive_path": "train_cache/consumer_publish/NTL_Hybrid_Cached_Fallback.ipynb",
+      "sha256_lf": "eb4e3ef8a590bb6c43f7fd098d22cea5ae963dcf67b3ec7fe14081110e15c385",
+      "archive_sha256": "366aab2af260667cab03fad03a337b6b423f978e9859544b5e7ffc491c250f09"
+    },
+    {
+      "path": "notebooks/preparation/train_feature_cache.ipynb",
+      "archive_path": "train_cache/prep_publish/NTL_Hybrid_Train_Feature_Cache.ipynb",
+      "sha256_lf": "adf51d6b2cf2b812eb93a2b20fc2b48e8b47aaaa16bf6e86cfb0aec0a0499a12",
+      "archive_sha256": "2a518ba7293927c95b86287f3eb29782b2cf242241bdac16bb80ee549f2ca87a"
+    },
+    {
+      "path": "notebooks/diagnostics/full_route_72.ipynb",
+      "archive_path": "four_experiments_20261022/diagnostic/publish/NTL_Full_Route_Diagnostic_72.ipynb",
+      "sha256_lf": "6effe52153a1b424ff204e8b4f71e3b11db60b0c9c6f9062c8dfd30f72a8d071",
+      "archive_sha256": "f33262b5164fe65951e89e4a4849e2d3e14deaf8766a35fb17099d0526b158ea"
+    },
+    {
+      "path": "notebooks/preparation/llama31_base_assets.ipynb",
+      "archive_path": "llama_hf_assets/NTL_Llama31_Base_HF_Assets.ipynb",
+      "sha256_lf": "e0c12a5e3b5eafa2663bb341e4488d1a13043c3a2971f3a71c77c050b65ef32c",
+      "archive_sha256": "791ea68bb0b75a64cd352b2079f5c051fc4189e6ff99d634cebabf1ecbdb0699"
+    }
+  ],
+  "notebooks": [
+    {
+      "path": "notebooks/baselines/soft_mrf_0608.ipynb",
+      "archive_path": "soft_mrf/publish/NTL_ATLAS_Soft_MRF_Constraints.ipynb",
+      "sha256_lf": "cef0f18cd0e9a8786297c4b1d3f1ef7abca2e38e097c1131c4abe2fe9003c6e7",
+      "archive_sha256": "d3931b9883b37913ea1d0a26dbde2453ad379bcab688d44e0599066012344fed",
+      "profile": "soft_mrf_0608",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "soft_mrf/publish/kernel-metadata.json"
+    },
+    {
+      "path": "notebooks/experiments/svc_002.ipynb",
+      "archive_path": "four_experiments_20261022/svc_verified/publish/NTL_SVC_Verified_0608.ipynb",
+      "sha256_lf": "b7918616219a8abb192c5d3f4e6eb2a4105f5ebc304babb4aaa4a7e47efe3ae3",
+      "archive_sha256": "b30b60066c92e4bd44e177cce43fb569f528420615f0b7add7af3ba887a4fec3",
+      "profile": "svc_002",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "four_experiments_20261022/svc_verified/publish/kernel-metadata.json"
+    },
+    {
+      "path": "notebooks/experiments/svc_calibrated.ipynb",
+      "archive_path": "four_experiments_20261022/svc_calibrated/publish/NTL_Exp3_MRF_Calibrated_SVC.ipynb",
+      "sha256_lf": "dee2ecbe6868720a5d8bb219072832821219c6866ed3ad1a20bf6aee6140bef3",
+      "archive_sha256": "114623631a95b18b93b7a3f77c2f4c5f8028b5cbd016c957b5f94a6da4e28715",
+      "profile": "svc_calibrated",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "four_experiments_20261022/svc_calibrated/publish/kernel-metadata.json"
+    },
+    {
+      "path": "notebooks/experiments/hybrid_mrf.ipynb",
+      "archive_path": "four_experiments_20261022/hybrid_mrf/publish/NTL_Exp1_Hybrid_Soft_MRF.ipynb",
+      "sha256_lf": "630491121e88e68f9b3f2128999c3fa92a04ccf36f606ef3aad84df6374ecb8c",
+      "archive_sha256": "348baaeaa3da4c71b6dce3ee8de9d70ddb70f3520ff179a3f034935a7c74e5ca",
+      "profile": "hybrid_mrf",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "four_experiments_20261022/hybrid_mrf/publish/kernel-metadata.json"
+    },
+    {
+      "path": "notebooks/experiments/mrf_055.ipynb",
+      "archive_path": "four_experiments_20261022/mrf_055/publish/NTL_Exp4_MRF_Penalty_055.ipynb",
+      "sha256_lf": "923067a4b3c50e8a4006e5526ea16bca94ed9c4b2c19903f7f22347ede5c6eee",
+      "archive_sha256": "cb43a0391f00cd4bbf0d7e8f49175c945bc876139e9b5fdcdfb3a2722cc75c27",
+      "profile": "mrf_055",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "four_experiments_20261022/mrf_055/publish/kernel-metadata.json"
+    },
+    {
+      "path": "notebooks/reference/hybrid_cached_0602.ipynb",
+      "archive_path": "train_cache/consumer_publish/NTL_Hybrid_Cached_Fallback.ipynb",
+      "sha256_lf": "eb4e3ef8a590bb6c43f7fd098d22cea5ae963dcf67b3ec7fe14081110e15c385",
+      "archive_sha256": "366aab2af260667cab03fad03a337b6b423f978e9859544b5e7ffc491c250f09",
+      "profile": "hybrid_cached_0602",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "train_cache/consumer_publish/kernel-metadata.json"
+    },
+    {
+      "path": "notebooks/preparation/train_feature_cache.ipynb",
+      "archive_path": "train_cache/prep_publish/NTL_Hybrid_Train_Feature_Cache.ipynb",
+      "sha256_lf": "adf51d6b2cf2b812eb93a2b20fc2b48e8b47aaaa16bf6e86cfb0aec0a0499a12",
+      "archive_sha256": "2a518ba7293927c95b86287f3eb29782b2cf242241bdac16bb80ee549f2ca87a",
+      "profile": "prepare_train_cache",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "train_cache/prep_publish/kernel-metadata.json"
+    },
+    {
+      "path": "notebooks/diagnostics/full_route_72.ipynb",
+      "archive_path": "four_experiments_20261022/diagnostic/publish/NTL_Full_Route_Diagnostic_72.ipynb",
+      "sha256_lf": "6effe52153a1b424ff204e8b4f71e3b11db60b0c9c6f9062c8dfd30f72a8d071",
+      "archive_sha256": "f33262b5164fe65951e89e4a4849e2d3e14deaf8766a35fb17099d0526b158ea",
+      "profile": "diagnostic_72",
+      "notebook_JSON_unchanged": true,
+      "normalization": "UTF-8 LF only",
+      "metadata_archive_path": "four_experiments_20261022/diagnostic/publish/kernel-metadata.json"
+    }
+  ],
+  "no_training_data_model_weights_or_credentials_copied": true
+}

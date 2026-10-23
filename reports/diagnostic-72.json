@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 72,
+  "real_pretrained_model_inference": true,
+  "baseline_public_cache_hit": false,
+  "tests_full_baseline_SVC_ATLAS_MRF": true,
+  "hidden_accuracy_validated": false,
+  "uses_hidden_data": false,
+  "competition_submission_forbidden": true
+}

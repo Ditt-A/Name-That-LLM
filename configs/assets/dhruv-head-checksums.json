@@ -1,0 +1,18 @@
+{
+  "ts_q3b8": {
+    "sha256": "fb580805fd4bf4e6cfed9bcbb690dea45d342f02571366c86694cb2ffe769b2b",
+    "bytes": 4986739
+  },
+  "ts_q3b14": {
+    "sha256": "36ac37a42fd8421188a66df27445dddb9bdd0e89afd6e66c2bcf04ab42ea8019",
+    "bytes": 6231923
+  },
+  "ts_llama8": {
+    "sha256": "616d6fe1bca2d1eba8548bb25d494362e24c15f1c1faa459bc62a531f8fe6fab",
+    "bytes": 4986739
+  },
+  "ts_q25_7b": {
+    "sha256": "57f6372d3a50e660279db93193f84db1cdfb3ea9a677d7e76a66682fdb5cb261",
+    "bytes": 4364147
+  }
+}

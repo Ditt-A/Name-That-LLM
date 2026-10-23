@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "source_hybrid_script_version_id": 361021710,
+  "source_notebook_sha256": "c208c57567cec56cae655256644d1fe7eedeb9c629601692298b0bafafd02aac",
+  "modules_sha256": {
+    "hybrid_math.py": "000c483559decb720709455f1e3950bf8c53155af3679db1eb44b7f93e775cd3",
+    "candidate_runtime.py": "05aa6c4098e360092e94162e78a578d73a19512c69b9d9e45b142f532d826368",
+    "atlas_runtime.py": "d3ac34a5fc5d339f043c194531c464d6251a07a4384a109c358f028920202fbd",
+    "baseline_runtime.py": "7b60bd1c0985de7159d10e52f8722d262f10ab8e706106eaa5e8f526c05cb865",
+    "checkpoint_resolver.py": "5254f7d1bafa97500eb02ea9db33811ce5c22bb299a1af35f6c7d17bc0e11a91",
+    "gauss.py": "908b57113f1a7b8ebdbf204c6be87cbc385f765ba50ac07b4e270c64b7cf1000"
+  },
+  "cache_runtime_sha256": "e13e79e2b6de234c8e6d9daec91c6e7abea5b21d0dad197b5c305892c86025f1",
+  "expected_features": [
+    "main-lora8b_v1",
+    "frozen-glm9b",
+    "frozen-q3_8b",
+    "frozen-q25_7b",
+    "frozen-q3_4b",
+    "frozen-debv3l",
+    "frozen-electl",
+    "frozen-desk",
+    "dhruv-ts_q3b8",
+    "dhruv-ts_q3b14"
+  ],
+  "expected_gaussian_fits": 7,
+  "source_checkpoint_datasets": [
+    "dhruvtibarewal/nlm-l24-adapters/7",
+    "nishantdahal/ntl-two-stage-lora"
+  ]
+}
